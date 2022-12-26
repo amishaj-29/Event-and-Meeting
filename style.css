@@ -1,0 +1,28 @@
+body{
+	background-image: url("bg-img.jpg");
+	background-color: pink ;
+}
+
+.event{
+	margin-top:30px;
+	
+	padding:10%;
+}
+.meeting{
+	margin-top:10px;
+	/* color: darksalmon; */
+	padding:10%;
+}
+
+header{
+	text-align:right;
+	/* background-color:#251749; */
+	height: 80px;
+	text-shadow:  4px 3px 0px black;
+	font-size: 65px;
+	color: whitesmoke;
+}
+
+.meet{
+	padding : 35%; 
+}
