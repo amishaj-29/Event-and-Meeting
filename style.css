@@ -1,0 +1,26 @@
+body{
+	background-color: pink ;
+}
+
+header{
+	background-color: brown;
+}
+.event{
+	margin-top:10px;
+	background-color:#FF8E9E;
+	padding:10%;
+}
+.meeting{
+	margin-top:10px;
+	background-color:#FF9E9E;
+	padding:10%;
+}
+
+header{
+	text-align:right;
+	background-color:#85586F;
+}
+
+.meet{
+	padding : 35%; 
+}

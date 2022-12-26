@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<title>Registration</title>
+</head>
+<body>
+<header>
+	<center> <strong> <i> Event And Meeting </i></strong></center>
+</header>
+<section class="h-100 h-custom" style="background-color: #8fc4b7;">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-lg-8 col-xl-6">
+        <div class="card rounded-3">
+          <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img3.webp"
+            class="w-100" style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;"
+            alt="Sample photo">
+          <div class="card-body p-4 p-md-5">
+            <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Registration Info</h3>
+
+            <form class="px-md-2">
+
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form3Example1q">First Name</label>
+              
+                <input type="text" id="form3Example1q" pattern = "^[[A-Za-z]{1,32}" required />
+              </div>
+              
+              <div class="form-outline mb-4">
+              <label class="form-label" for="form3Example1q">Last Name</label>
+                <input type="text" id="form3Example1q" pattern = "^[[A-Za-z]{1,32}" required />
+                
+              </div>
+
+              
+                
+                <div class="row">
+               
+
+                  <div class="form-outline ph_numpicker">
+                    <label for="exampleph_numpicker" class="form-label">Phone Number</label>
+                  
+                    <input type="text" required id="exampleph_numpicker" pattern="^\d{10}$" required />
+                  </div>
+
+                </div>
+                
+              </div>
+				
+				<div class="mb-4">
+
+                  <select class="select" required>
+                    <option value="1">Gender</option>
+                    <option value="2">Female</option>
+                    <option value="3">Male</option>
+                    <option value="4">Other</option>
+                  </select>
+
+                </div>
+				
+              <div class="mb-4">
+
+                <select class="select" required>
+                  <option value="1">City</option>
+                  <option value="2">Ujjain</option>
+                  <option value="3">Pune</option>
+                  <option value="4">Banglore</option>
+                  
+                  <option value="5">Mysore</option>
+                  <option value="6">Chennai</option>
+                  <option value="7">Hyderabad</option>
+                </select>
+
+              </div>
+
+             
+<button onclick="myFunction()"><a href = "First_page.html">Submit</a></button>
+              
+             
+
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+    <h6>&copy; Copyright Reserved By Amisha Jain</h6>
+    <p>Amisha Jain<br>Coder and Designer</p>
+</footer>
+
+</body>
+</html>
